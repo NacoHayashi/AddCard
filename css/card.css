@@ -1,0 +1,79 @@
+*{
+    font-family: "微軟正黑體";
+}
+#addCard{
+    width: 590px;
+    height: 40px;
+    background: #cf6766;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+}
+#board{
+    width: 630px;
+    background: #30415d;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+#detial{
+    width: 630px;
+    background: #031424;
+    text-indent: 2em;
+    border-radius: 0 0 10px 10px;
+    color: #cbc5e7;
+}
+.card{
+    width: 250px;
+    background: #8eaebd;
+    margin: 20px 0 0 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+h3{
+    color:#031424;
+    margin: 10px auto;
+}
+p{
+    color:#031424;
+    margin: 10px auto;
+    font-weight: bold;
+}
+button{
+    cursor: pointer;
+    margin-right: 5px;
+    background: #a9cfe0;
+    border: 1px solid #031424;
+    border-radius: 5px;
+    color:#031424;
+}
+button:hover{
+    background: #f87d7b;
+}
+.send{
+    background: #cf6766;
+    color: #fff;
+    border: 1.3px solid #fff;
+}
+.send:hover{
+    background: #da630f;
+    border-color:#fff;
+    color:#fff;
+}
+input{
+    margin-right: 20px;
+}
+input::placeholder{
+    text-indent: 0.6em;
+}
+.editInput1{
+    text-indent: 0.6em;
+}
+.editInput2{
+    text-indent: 0.3em;
+}
+.editInput1, .editInput2{
+    margin-bottom: 10px;
+}
+label{
+    margin-right: 20px;
+}
